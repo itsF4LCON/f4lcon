@@ -5,12 +5,12 @@ const Skills = () => {
   const [isVisible, setIsVisible] = useState(false);
 
   const skills = [
-    { name: "JavaScript", level: 85, color: "from-yellow-500 to-orange-500" },
+    { name: "JavaScript", level: 35, color: "from-yellow-500 to-orange-500" },
     { name: "Python", level: 80, color: "from-blue-500 to-green-500" },
-    { name: "Lua", level: 75, color: "from-indigo-500 to-purple-500" },
+    { name: "Lua", level: 85, color: "from-indigo-500 to-purple-500" },
     { name: "HTML/CSS", level: 90, color: "from-orange-500 to-red-500" },
     { name: "React", level: 70, color: "from-cyan-500 to-blue-500" },
-    { name: "Node.js", level: 65, color: "from-green-500 to-emerald-500" },
+    { name: "Node.js", level: 25, color: "from-green-500 to-emerald-500" },
     { name: "Git", level: 75, color: "from-gray-500 to-gray-700" },
     { name: "WebGL", level: 60, color: "from-purple-500 to-pink-500" }
   ];
