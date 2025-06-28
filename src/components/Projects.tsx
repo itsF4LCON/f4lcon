@@ -4,32 +4,32 @@ import { Github } from "lucide-react";
 const Projects = () => {
   const projects = [
     {
-      title: "CodeChaos Bot",
-      description: "A Discord bot that brings order to chaos with fun commands and moderation features. Built with JavaScript and chaos theory.",
+      title: "Smartschool Dark",
+      description: "A dark theme enhancement for Smartschool platform, improving the user experience with a sleek dark interface that's easier on the eyes.",
       image: "https://images.unsplash.com/photo-1461749280684-dccba630e2f6?w=600&h=400&fit=crop",
-      github: "https://github.com/f4lcon/codechaos-bot",
-      tech: ["JavaScript", "Discord.js", "Node.js"]
+      github: "https://github.com/itsF4LCON/Smartschool-dark",
+      tech: ["CSS", "Dark Theme", "UI/UX"]
     },
     {
-      title: "WebGL Particle System",
-      description: "An interactive particle system that responds to mouse movement. Because who doesn't love pretty dots flying around?",
-      image: "https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?w=600&h=400&fit=crop",
-      github: "https://github.com/f4lcon/webgl-particles",
-      tech: ["WebGL", "JavaScript", "GLSL"]
-    },
-    {
-      title: "Lua Game Engine",
-      description: "A lightweight 2D game engine built from scratch in Lua. Perfect for rapid prototyping and learning game dev fundamentals.",
+      title: "Cubicle Runner",
+      description: "An engaging runner game where you navigate through cubicle environments. Fast-paced gameplay with smooth mechanics and challenging obstacles.",
       image: "https://images.unsplash.com/photo-1486312338219-ce68d2c6f44d?w=600&h=400&fit=crop",
-      github: "https://github.com/f4lcon/lua-engine",
-      tech: ["Lua", "LÖVE2D", "Game Dev"]
+      github: "https://f4lcondev.itch.io/cubicle-runner",
+      tech: ["Game Development", "GD Script", "Godot"]
     },
     {
-      title: "Python Web Scraper",
-      description: "Automated data collection tool that gathers information from various sources. Data is power, and power is awesome.",
+      title: "Music Production",
+      description: "Original music compositions and beats created using BandLab. Exploring different genres and experimenting with electronic sounds.",
+      image: "https://images.unsplash.com/photo-1493225457124-a3eb161ffa5f?w=600&h=400&fit=crop",
+      github: "https://soundcloud.com/xiv-984646465",
+      tech: ["Music Production", "BandLab", "Audio Engineering"]
+    },
+    {
+      title: "More Projects",
+      description: "Check out my GitHub profile for more projects and contributions. Always working on something new and exciting!",
       image: "https://images.unsplash.com/photo-1498050108023-c5249f4df085?w=600&h=400&fit=crop",
-      github: "https://github.com/f4lcon/web-scraper",
-      tech: ["Python", "BeautifulSoup", "Selenium"]
+      github: "https://github.com/itsF4LCON",
+      tech: ["Various", "Open Source", "Development"]
     }
   ];
 
@@ -86,7 +86,9 @@ const Projects = () => {
                   className="inline-flex items-center text-gray-300 hover:text-white transition-colors duration-300 font-semibold"
                 >
                   <Github className="w-5 h-5 mr-2" />
-                  View on GitHub
+                  {project.title === "Cubicle Runner" ? "Play on itch.io" : 
+                   project.title === "Music Production" ? "Listen on SoundCloud" : 
+                   project.title === "More Projects" ? "View GitHub Profile" : "View on GitHub"}
                 </a>
               </div>
             </div>
