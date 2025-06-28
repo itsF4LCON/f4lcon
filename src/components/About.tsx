@@ -1,12 +1,12 @@
 
 const About = () => {
   const facts = [
-    "🎮 Started coding at 12 because I wanted to mod Minecraft",
-    "🌙 Night owl - my best code happens after midnight",
-    "🎵 Can't code without music (currently obsessed with synthwave)",
-    "🏂 When not coding, you'll find me snowboarding or skateboarding",
-    "🍕 Firmly believes pineapple belongs on pizza (fight me)",
-    "🤖 Dreams of building AI that can debug its own code"
+    "🚣 Row in my free time - there's something peaceful about being on the water",
+    "🎵 Always listening to music, currently obsessed with 2Pac and Joey Bada$$",
+    "💻 Started coding at 12 because I wanted to create something amazing",
+    "🍕 Firmly believes pineapple does NOT belong on pizza (sorry, not sorry)",
+    "🛠️ Dreams of making helpful and/or fun tools and games that people love",
+    "🌙 Night owl - my best code happens after midnight"
   ];
 
   return (
@@ -47,7 +47,7 @@ const About = () => {
                   <div className="absolute inset-0 bg-gradient-to-br from-white/10 to-gray-400/10 rounded-full blur-xl"></div>
                 </div>
                 <p className="text-gray-400 mt-6 italic">
-                  "Code is poetry, and I'm here to write epic novels"
+                  "Keep your head up"
                 </p>
               </div>
             </div>

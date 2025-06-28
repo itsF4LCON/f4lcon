@@ -1,6 +1,6 @@
 
 import { useState } from "react";
-import { Github, Youtube } from "lucide-react";
+import { Github, Instagram } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
 
 const Contact = () => {
@@ -133,7 +133,7 @@ const Contact = () => {
               
               <div className="flex space-x-4">
                 <a
-                  href="https://github.com/f4lcon"
+                  href="https://github.com/itsF4LCON"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center w-12 h-12 bg-gray-800 hover:bg-white hover:text-black rounded-lg transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-white/25"
@@ -142,12 +142,12 @@ const Contact = () => {
                 </a>
                 
                 <a
-                  href="https://youtube.com/@f4lcon"
+                  href="https://www.instagram.com/ran.geerts/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="flex items-center justify-center w-12 h-12 bg-gray-800 hover:bg-white hover:text-black rounded-lg transition-all duration-300 hover:scale-110 hover:shadow-lg hover:shadow-white/25"
                 >
-                  <Youtube className="w-6 h-6" />
+                  <Instagram className="w-6 h-6" />
                 </a>
               </div>
             </div>
