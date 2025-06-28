@@ -1,4 +1,5 @@
 
+
 const About = () => {
   const facts = [
     "🚣 Row in my free time - there's something peaceful about being on the water",
@@ -6,7 +7,7 @@ const About = () => {
     "💻 Started coding at 12 because I wanted to create something amazing",
     "🍕 Firmly believes pineapple does NOT belong on pizza (sorry, not sorry)",
     "🛠️ Dreams of making helpful and/or fun tools and games that people love",
-    "🌙 Night owl - my best code happens after midnight"
+    "🌆 Evening coder - my best work happens when the sun goes down"
   ];
 
   return (
@@ -59,3 +60,4 @@ const About = () => {
 };
 
 export default About;
+
