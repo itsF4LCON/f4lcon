@@ -1,4 +1,3 @@
-
 import { useState } from "react";
 import { Github, Instagram } from "lucide-react";
 import { useToast } from "@/hooks/use-toast";
@@ -113,17 +112,12 @@ const Contact = () => {
               <div className="space-y-4">
                 <div>
                   <h4 className="text-gray-300 font-semibold mb-2">Email</h4>
-                  <p className="text-gray-400">ran.geerts@example.com</p>
-                </div>
-                
-                <div>
-                  <h4 className="text-gray-300 font-semibold mb-2">Discord</h4>
-                  <p className="text-gray-400">F4LCON#1337</p>
+                  <p className="text-gray-400">rangeerts@gmail.com</p>
                 </div>
                 
                 <div>
                   <h4 className="text-gray-300 font-semibold mb-2">Location</h4>
-                  <p className="text-gray-400">Netherlands 🇳🇱</p>
+                  <p className="text-gray-400">Belgium 🇧🇪</p>
                 </div>
               </div>
             </div>
