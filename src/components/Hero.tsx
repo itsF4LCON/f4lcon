@@ -1,6 +1,7 @@
 
 import { ArrowDown } from "lucide-react";
 import { useEffect, useState } from "react";
+import { Avatar, AvatarImage, AvatarFallback } from "@/components/ui/avatar";
 
 const Hero = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -24,9 +25,15 @@ const Hero = () => {
       <div className="container mx-auto px-6 text-center relative z-10">
         {/* Avatar */}
         <div className={`mb-8 transform transition-all duration-1000 ${isVisible ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
-          <div className="w-32 h-32 mx-auto bg-gradient-to-r from-black to-gray-800 border-2 border-white rounded-full flex items-center justify-center text-4xl font-bold text-white shadow-2xl shadow-white/25 hover:scale-110 transition-transform duration-300">
-            F4
-          </div>
+          <Avatar className="w-32 h-32 mx-auto border-2 border-white shadow-2xl shadow-white/25 hover:scale-110 transition-transform duration-300">
+            <AvatarImage 
+              src="https://github.com/itsF4LCON.png" 
+              alt="F4LCON Profile Picture"
+            />
+            <AvatarFallback className="bg-gradient-to-r from-black to-gray-800 text-white text-4xl font-bold">
+              F4
+            </AvatarFallback>
+          </Avatar>
         </div>
 
         {/* Main heading */}
